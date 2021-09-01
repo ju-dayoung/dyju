@@ -30,7 +30,7 @@ var mySwiper = new Swiper('.parallax-slide .swiper-container', {
   direction:'horizontal',
   slidePerView:'auto',
   loop:true,
-  parallax:true, // 반드시 parallax:true 로 설정. 핵심 옵션
+  parallax:true, // 반드시 parallax:true 로 설정.
   spaceBetween:0,
   speed:800
 });
