@@ -7,9 +7,9 @@
 ```
 <div class="parallax-slide">
   <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="./images/sld_01.jgp" alt=""></div>
-    <div class="swiper-slide"><img src="./images/sld_02.jgp" alt=""></div>
-    <div class="swiper-slide"><img src="./images/sld_03.jgp" alt=""></div>
+    <div class="swiper-slide"><img src="./images/sld_01.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./images/sld_02.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./images/sld_03.jpg" alt=""></div>
   </div>
   <div class="swiper-pagination"></div>
   <div class="swiper-button-prev"></div>
