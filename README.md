@@ -38,11 +38,18 @@ var mySwiper = new Swiper('.parallax-slide .swiper-container', {
 
 ## STEP03. swiper-slide안의 element에 속성 추가
 
+data-swiper-parallax 속성을 추가해야 한다.
 ```
-<div class="swiper-slide"><img src="./images/sld_01.jpg" alt="" data-swiper-parallax="90%"></div>
+<div class="swiper-slide">
+  <img src="./images/sld_01.jpg" alt="" data-swiper-parallax="90%">
+</div>
 ```
 
+## STEP04. swiper-slide에 css 추가
 
+```
+.swiper-container { /* 여러 속성들.. */ overflow:hidden; }
+```
 
 
 
