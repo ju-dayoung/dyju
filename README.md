@@ -56,4 +56,4 @@ data-swiper-parallax 속성을 추가해야 한다.
 ```
 
 
-
+[결과물 보러가기](https://codepen.io/ju-dayoung/pen/VwWamVZ)
