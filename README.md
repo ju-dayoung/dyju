@@ -5,7 +5,7 @@
 
 스와이퍼 슬라이드 마크업 
 ```
-<div class="parallax-slide">
+<div class="parallax-slide swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide"><img src="./images/sld_01.jpg" alt=""></div>
     <div class="swiper-slide"><img src="./images/sld_02.jpg" alt=""></div>
@@ -21,16 +21,20 @@
 ## STEP02. swiper 설정
 
 ```
-var mySwiper = new Swiper('.parallax-slide .swiper-container', {
-  navitation : {
+var mySwiper = new Swiper('.parallax-slide ', {
+  navigation : {
     nextEl:'.swiper-button-next',
     prevEl:'.swiper-button-prev',
+  },
+  pagination:{
+    el:'.parallax-slide .swiper-pagination',
+    clickable: true,
   },
   loop:true,
   direction:'horizontal',
   slidePerView:'auto',
   loop:true,
-  parallax:true, // 반드시 parallax:true 로 설정.
+  parallax:true, // 반드시 parallax:true설정.
   spaceBetween:0,
   speed:800
 });
